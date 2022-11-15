@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <%- include("../partials/head") %>
+    <body>
+        <div id="root">
+            <%- include("../partials/header") %>
+            <main>
+                <div id="banner">
+                    <img src="/public/images/banner.jpg">
+                    <span id="banner-title">Academy</span>
+                    <div id="container--banner-button">
+                        <button id="banner-button">Começar agora</button>
+                    </div>
+                </div>
+                <div id="container--sections">
+                    <section id="our-philosophy">
+                        <div id="card">
+                            <div>
+                                <h1>Nossa filosofia</h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, illo asperiores. Neque saepe quo dignissimos blanditiis perferendis rerum, deleniti non. Dolor ex magnam ad temporibus ducimus et sequi, perferendis voluptate.</p>
+                            </div>
+                            <div class="container--img">
+                                <img src="/public/images/Right-Man.jpg" alt="Right man" id="right-man" loading="lazy">
+                            </div>
+                        </div>
+                    </section>
+                    <section id="units">
+                        <div id="card">
+                            <div class="container--img">
+                                <img src="/public/images/cardio.jpg" alt="Cardio" id="cardio" loading="lazy">
+                            </div>
+                            <div>
+                                <h1>Nossas unidades</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus earum tempore commodi? Corporis modi qui officiis reiciendis repudiandae iure quidem quaerat eligendi deleniti enim.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <%- include("../partials/footer") %>
+        </div>
+    </body>
+
+    <script src="/public/scripts/main.js" defer></script>
+</html>
