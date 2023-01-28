@@ -10,14 +10,6 @@ app.get("/", (required, response) => {
     response.render("pages/index");
 });
 
-app.get("/plans", (required, response) => {
-    response.render("pages/plans");
-});
-
-app.get("/app", (required, response) => {
-    response.render("pages/app");
-});
-
 app.listen(PORT, (e) => {
     if(e){
         console.log(e);
